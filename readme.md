@@ -11,3 +11,7 @@ Verificare se pip è installato: `pip -v-ersion`
 Scaricare pip: `python get-pip.py`
 
 Vedere i pacchetti installati: `pip list`
+
+# Mysql:
+
+`pip install mysql-connector-python`

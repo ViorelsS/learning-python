@@ -2,7 +2,7 @@
 
 lista_citta = ["udine", "roma", "bari","napoli", "venezia"]
 
-[print(citta) for citta in lista_citta if citta!="roma"]
+y = [print(citta) for citta in lista_citta if citta!="roma"]
 
 x = ["Milano" for citta in lista_citta if citta!="roma"]
 print(x)

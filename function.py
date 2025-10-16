@@ -1,6 +1,7 @@
 """Costruzione funzioni"""
 
 def somma_due_numeri():
+    """Somma due numeri presa da input utente e ne stampa il risultato."""
     num1 = input("inserisci primo numero: ")
     num2 = input("inserisci il secondo numero: ")
     
@@ -9,6 +10,7 @@ def somma_due_numeri():
 somma_due_numeri()
 
 def somma_numeri(*numeri):
+    """Somma tutti i numeri passati come argomenti e ne stampa il risultato."""
     numeri_list = list(numeri)
 
     
@@ -16,5 +18,4 @@ def somma_numeri(*numeri):
         numeri_list[0] += num
     
     print("SOMMA NUMERI", numeri_list[0])
-        
 somma_numeri(1,1,1,1,1,1)
